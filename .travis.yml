@@ -19,7 +19,7 @@ script:
 
   # - cmake .
 
-  - build-wrapper-linux-x86-64 --out-dir bw-output <cmake --build . -- -j4>
+  - build-wrapper-windows-x86-64 --out-dir bw-output <cmake --build . -- -j4>
   # And finally run the SonarCloud analysis - read the "sonar-project.properties"
   # file to see the specific configuration
   - sonar-scanner -Dsonar.cfamily.build-wrapper-output=bw-output
