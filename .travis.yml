@@ -6,7 +6,7 @@ addons:
   sonarcloud:
     organization: "actividad-pipeline"
     token:
-      secure: "**************************" # encrypted value of your token
+      secure: "SY5fgdZ098WuxXG7q0egWOKVZzAvDBkCfYoKtr2wU+m2hk0fd/GNBqT/VlNYvcsLDe4+NUVp6jzjlck7UscapUCCLn1xaXd+b34gaflZxlEQ1DsH4bgsYZRetCQVv+MxwSTrWIMUlpEWIyamBokikgvgZHAfj2YOlI/JtQP/5vo32nFrsuz0Cp/1l5Eq5yhlIQqYzvIcxb9I531lSzSNQtCukBAmTTTxDVHDpYseq6mpBvVQz0arm4N/4l7OMT+r3PFdJ6Fgpmr6Jv4/caoan5e3VCr3x2IfMwddAATmmRwbfmZFqQP38gdhmal9EGxJLmSUfs14DN1T40cviAAJL70ot3FF3YpVhnp8nNGxbJb/kFC+uRTFAGuBjSh+C5KP2INcJTpl3XKGP0pWHDdqt6bFG6q5MPyYAmVouosPJi5qnHE599jxOtNYn3HXMbfOSNQps0neVVM+wbywfD3Yt4vbt+jjw4xIR9Q01YoTY0PxgQ4ycSwQLeW8R2GClX+8ZRp1mPMxDbJePeB+m3GnCWqchzmUmlSNPys3RBn36MOTUekvXb0RHi1QySAj24jY4RshfpSoG4Cfd9fYbCIoOjQpb4YUmEktFOKrLUlgc7bfRT/AkJOTVYLjitcDYwfDzaPYvdH6Cace838ItJkK7DvmGIUsdXD6y90E18/44kw="
 
 script:
   # Wraps the compilation with the Build Wrapper to generate configuration (used
