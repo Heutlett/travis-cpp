@@ -3,4 +3,5 @@ language: cpp
 compiler: gcc
 
 script:
-  -  cmake .
+  - cmake .
+  - cmake --build . -- -j4
