@@ -14,7 +14,7 @@ script:
 
   - cmake .
   - make
-  #- ./travis-cpp
+  - ./travis_cpp
   #- sonnar-scanner
   #- cd D:\build-wrapper-win-x86
 
