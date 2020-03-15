@@ -2,8 +2,6 @@ language: cpp
 
 compiler: gcc
 
-dist: trusty
-
 addons:
   sonarcloud:
     organization: "actividad-pipeline"
